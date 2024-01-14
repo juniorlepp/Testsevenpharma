@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style4.css" />
+  </head>
+  <body>
+     
+  <div class="loader_bg">
+    <div class="loader"></div>
+</div>
+    <div class="container">
+      <form autocomplete="off">
+        <h4> Formulaire de prise de rendez-vous</h4>
+        <div class="input-section">
+          <label>Nom <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Entrer votre Nom" 
+            name="Entrer votre Nom"
+            id="first-name-input"
+            required
+          />
+        </div>
+        <div class="input-section">
+          <label>Prénom <span class="required-color">*</span></label>
+          <input
+            type="text "
+            placeholder="Entrer votre Prénom"
+            name="Last Name"
+            required
+          />
+          
+        </div>
+        <div class="input-section">
+          <label>Date et lieu de naissance <span class="required-color">*</span></label>
+          <input
+            type="text "
+            placeholder="Entrer votre date et lieu de naissance"
+            name="Date et lieu de naissance"
+            required
+          />
+          
+        </div>
+        <div class="input-section">
+          <label>E-mail <span class="required-color">*</span></label>
+          <input type="email" placeholder="Entrer votre e-mail" name="email" required />
+        </div>
+        <div class="input-section">
+          <label>Téléphone <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Entrer votre numéro de téléphone"
+            name="phone"
+            required
+          />
+        </div>
+        <div class="input-section">
+          <label>N°de passeport <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Entrer votre numéro de passeport"
+            name="phone"
+            required
+          />
+        </div>
+        <div class="input-section">
+          <label>Nom de l'assureur maladie(si vous en disposez) <span class="required-color">*</span></label>
+          <input
+            type="text"
+            placeholder="Entrer le nom de votre assureur maladie"
+            name="Assureur maladie"
+          />
+        </div>
+        <button id="submit-button">Envoyer le formulaire</button>
+      </form>
+    </div>
+    <!-- Script -->
+    <script src="script10.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+  </body>
+</html>

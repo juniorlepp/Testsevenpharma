@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Responsive Video Playlist Tutorial</title>
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="Style6.css">
+
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+   
+<div class="container">
+
+   <div class="main-video-container">
+      <video src="assets/images/seven pharma panneau 2.0 (1).mp4" autoplay loop muted class="main-video"></video>
+      <center><h3 class="main-vid-title">Our presentation</h3></center>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+         <video src="assets/images/seven pharma panneau 2.0 (1).mp4" class="list-video"></video>
+         <h3 class="list-title">Video1</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-2.mp4" class="list-video"></video>
+         <h3 class="list-title">video2</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-3.mp4" class="list-video"></video>
+         <h3 class="list-title">Video3</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-4.mp4" class="list-video"></video>
+         <h3 class="list-title">Video4</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-5.mp4" class="list-video"></video>
+         <h3 class="list-title">Video5</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-6.mp4" class="list-video"></video>
+         <h3 class="list-title">Vidéo6</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-7.mp4" class="list-video"></video>
+         <h3 class="list-title">video7</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-8.mp4" class="list-video"></video>
+         <h3 class="list-title">video8</h3>
+      </div>
+
+      <div class="list">
+         <video src="images/vid-9.mp4" class="list-video"></video>
+         <h3 class="list-title">Video9</h3>
+      </div>
+
+   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="script6.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
+</body>

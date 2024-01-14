@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SevenPharma</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./style10.css" />
+
+    <!-- ==== BOXICONS CDN ==== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- ==== HEADER ==== -->
+    <header class="header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="navbar container">
+        <!-- ==== LOGO ==== -->
+        <div class="logo">
+          <img src="assets/images/_seven_pharma_50ààà-removebg-preview.png" alt="logo-icon" class="logo__img" />
+          <a href="#" class="logo__link">SevenPharma</a>
+        </div>
+        <!-- ==== NAV MENU ==== -->
+        <div class="nav__menu">
+          <ul class="nav__menu_list">
+            <li class="nav__menu_link_list">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="Index8.html" class="nav__link">Our blog</a>
+            </li>
+            <li class="nav__menu_link_list">
+              <a href="index.html" class="nav__link get_started_btn">French</a>
+            </li>
+              <li class="nav__menu_link_list">
+                <a href="#" class="nav__link get_started_btn">Spanish</a>
+              </li>
+          </ul>
+        </div>
+
+        <!-- ==== NAV-TOGGLE ==== -->
+        <button class="nav__toggle" id="nav_toggle">
+          <i class="bx bx-menu"></i>
+        </button>
+      </nav>
+    </header>
+
+    <br /><br /><br />
+
+    <main class="container main">
+      <section class="flex-item-1">
+        <h2 class="title">
+          About us <br />
+           <br />
+    
+        </h2>
+        <p class="subtitle">
+            We are a company specializing in health promotion. <br>We offer solutions and services in: 
+            Medical tourism, E-health, Storage and distribution of future pharmaceutical products, Marketing of medical equipment, etc.
+           
+
+        </p>
+        <button class="btn__start_trial">Appointment form</button>
+        <button class="btn__get__demo">Our facebook</button>
+        <p class="subtitle"><br><br>
+            In the Congo, the majority of the population does not benefit from an adequate health service. Everyone wants to be treated outside the country, particularly in countries where medicine is more developed. But unfortunately, they can't find the opportunity to realize their healthcare plans.
+            In fact, in the Congo, the medical evacuation system is not well organized, a situation that puts the lives of thousands of people at risk, left to their own devices for lack of information or financial resources.
+            
+            Many people have ventured to organize their own medical evacuations, on vague or uncertain grounds, and have ended up in hospitals with little credibility, at the hands of so-called "charlatan" doctors spending exorbitant sums. Instead of regaining their health, they lost their lives or saw their condition worsen, not knowing which saint to turn to. This is where Seven Pharma comes in.
+        
+        </p>
+        <p id="services" class="subtitle"><br><br>
+          NOS MISSIONS <br><br>Atteindre l'indice de satisfaction le plus élevé en envoyant le plus grand nombre de patients dans des hôpitaux qualifiés en Inde ou en Turquie offrant des services de soins de santé centrés sur le patient à des prix attractifs. <br><br>NOTRE VISION <br><br>Devenir un partenaire facilitant l’accès à la qualité de soins de santé la plus recherchée en fournissant des services compatissants, intentionnés et de classe mondiale avec l’aide des médecins professionnels et des dernières technologies . <br><br>CONTEXTE <br><br>Au congo, la majorité de la population ne bénéficie pas d'un service de santé adequat. Tout le monde souhaite se faire soigner à l'exterieur du pays notamment dans les pays où la medecine est plus dévéloppée. Mais malheuresement il ne trouve pas d'opportunité pour réaliser leur projet de soins.
+          En effet au Congo, le systeme d'évacuation sanitaire n'est pas bien organisé.Une situation qui met en perille la vie des miliers de personnes abandonnées à elles mêmes, faute d'informations ou de moyens financiers.
+          
+          Plusieurs personnes se sont aventurées à organiser elles mêmes leur évacuation sanitaire, sur des bases floues ou incertaines et se sont retrouvées dans les hopitaux peu crédibles, aux mains de certains médecins dits"charlatans" dépensant des sommes exorbitantes. Au lieu de retrouver la santé, elles ont perdu la vie ou ont vu leur cas s'aggraver, ne sachant à quel saint se vouer. C'est à ce moment qu'intervient Seven Pharma.
+          
+          </p>
+        <div class="works">
+          <span> Our Logo </span>
+          <ul class="works__logo">
+            <li class="works__logo__img">
+              <img src="assets/images/_seven_pharma_50ààà-removebg-preview.png" alt="logo-1" class="works_logo" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flex-item-2"></section>
+    </main>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <!-- === SCRIPT.JS === -->
+    <script src="./script7.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+    
+  </body>
+</html>
